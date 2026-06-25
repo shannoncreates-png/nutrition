@@ -1,5 +1,10 @@
 {
   "version": 2,
+  "functions": {
+    "api/page.js": {
+      "includeFiles": "index.html"
+    }
+  },
   "routes": [
     { "src": "/api/analyse", "dest": "/api/analyse.js" },
     { "src": "/(.*)", "dest": "/api/page.js" }
