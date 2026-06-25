@@ -1,6 +1,6 @@
 {
-  "outputDirectory": "public",
-  "rewrites": [
-    { "source": "/api/analyse", "destination": "/api/analyse" }
-  ]
+  "framework": null,
+  "buildCommand": "",
+  "installCommand": "",
+  "outputDirectory": ""
 }
