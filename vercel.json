@@ -1,7 +1,6 @@
 {
-  "outputDirectory": ".",
+  "outputDirectory": "public",
   "rewrites": [
-    { "source": "/api/analyse", "destination": "/api/analyse" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/api/analyse", "destination": "/api/analyse" }
   ]
 }
